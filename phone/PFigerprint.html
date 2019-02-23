@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/PCenter.css">
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/Store.css">
+    <link rel="stylesheet" href="css/Confirm.css">
+    <link rel="stylesheet" href="css/PMethod.css">
+    <link rel="stylesheet" href="css/PFigerprint.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1019572_wykqfr1d2.css">
+    <title>指纹支付</title>
+</head>
+<body>
+<div class="big-box"></div>
+<div class="box">
+<!--头部开始-->
+<header class="header-box">
+    <!--<div class="nav">-->
+        <!--<img src="img/zhuangtailan.png" alt="">-->
+    <!--</div>-->
+    <div class="header-content">
+        <div class="content-L">
+            <i class="iconfont icon-next-copy"></i>
+        </div>
+        <div class="content-word">
+            确认订单
+        </div>
+        <div class="content-L">
+            <i class="iconfont icon-fenxiang" id="edit"></i>
+        </div>
+        <div id="content-xinxi">
+            <p class="paisong">
+                订单派送至（学校）
+            </p>
+            <p class="paisongdizhi">
+                山西省财政税务专科学校（千峰南路25号）
+            </p>
+            <div class="paisong-phone">
+                大鱼吃小鱼（女士）
+                <i class="iconfont icon-shouji"></i>
+                <p class="phones">15935625877</p>
+            </div>
+        </div>
+    </div>
+
+</header>
+<!--头部结束-->
+<!--内容开始-->
+<div class="content">
+    <i class="iconfont icon-gantanhao"></i>
+    <span>准时送达  超时赔付</span>
+</div>
+<div class="content-a">
+    <div class="content-a-up">
+        <p>预计送达时间</p>
+        <p>
+            上午12:00
+            <i class="iconfont icon-xiangxia"></i>
+        </p>
+    </div>
+    <div class="xuxian"></div>
+    <div class="content-a-up">
+        <p>支付方式</p>
+        <p>
+            支付宝免密
+            <i class="iconfont icon-xiangxia"></i>
+        </p>
+    </div>
+</div>
+<div class="content-b">
+    <p>
+        <span>|</span>
+        确
+        <span>|</span>
+        认
+        <span>|</span>
+        订
+        <span>|</span>
+        单
+        <span>|</span>
+    </p>
+    <p id="content-b-p">CONFIRMATION ORDER</p>
+</div>
+<div class="content-c">
+    <div class="content-c-img">
+        <img src="img/chengzi.png" alt="">
+    </div>
+    <div class="content-c-word">
+        <div class="c-word-left">
+            <p class="word-left-up">橙汁</p>
+            <p id="lines"></p>
+            <p class="word-left-down">15.00￥</p>
+        </div>
+        <div class="c-word-right">
+            <div class="jian">
+                -
+            </div>
+            <div>2</div>
+            <div class="jian">
+                +
+            </div>
+        </div>
+    </div>
+</div>
+<div class="content-c">
+    <div class="content-c-img">
+        <img src="img/daxia.png" alt="">
+    </div>
+    <div class="content-c-word">
+        <div class="c-word-left">
+            <p class="word-left-up">虾沙拉</p>
+            <p id="lines"></p>
+            <p class="word-left-down">20.00￥</p>
+        </div>
+        <div class="c-word-right">
+            <div class="jian">
+                -
+            </div>
+            <div>1</div>
+            <div class="jian">
+                +
+            </div>
+        </div>
+    </div>
+</div>
+<div class="content-c">
+    <div class="content-c-img">
+        <img src="img/hanbao.png" alt="">
+    </div>
+    <div class="content-c-word">
+        <div class="c-word-left">
+            <p class="word-left-up">汉堡</p>
+            <p id="lines"></p>
+            <p class="word-left-down">15.00￥</p>
+        </div>
+        <div class="c-word-right">
+            <div class="jian">
+                -
+            </div>
+            <div>1</div>
+            <div class="jian">
+                +
+            </div>
+        </div>
+    </div>
+</div>
+<div class="content-d">
+    <div class="content-d-word">
+        <p>合计</p>
+        <p id="heji">65.00RMB</p>
+    </div>
+</div>
+<div class="content-e">
+    <p id="heji">红包（满50减15）</p>
+    <p id="heji">优惠15元</p>
+</div>
+<div class="content-d">
+    <div class="content-d-word">
+        <p>备注</p>
+        <p><i class="iconfont icon-xiangxia"></i></p>
+    </div>
+</div>
+<div class="content-d">
+    <div class="content-d-word">
+        <p>餐具</p>
+        <p id="canju">参与绿色环保公益</p>
+    </div>
+</div>
+<div class="button">
+    <div class="button-dot1"></div>
+    <div class="button-dot2"></div>
+    去支付
+    <div class="button-dot2"></div>
+    <div class="button-dot1"></div>
+</div>
+<!--内容结束-->
+</div>
+<!--指纹支付开始-->
+<div class="finger-box">
+    <div class="finger-a">
+        <i class="iconfont icon-next-copy"></i>
+        请验证指纹
+    </div>
+    <div class="finger-b">
+        65.00RMB
+    </div>
+    <div class="finger-c">
+        <a href="Success.html"><img src="img/zhiwen.png" alt=""></a>
+        <a href="PMethod%20pwd.html" class="c-word">手动输入密码</a>
+    </div>
+</div>
+<!--指纹支付结束-->
+</body>
+</html>

@@ -1,0 +1,18 @@
+.huayan-content{
+    width:1349px;
+    height:1260px;
+    background: #f2f2f2;
+}
+.huayan-content-bd{
+    width:1170px;
+    height:100%;
+    /*background:rebeccapurple;*/
+    margin:0 auto;
+
+}
+.huayan-content-left{
+    width:877px;
+    height:1200px;
+    background: #fff;
+    float:left;
+}

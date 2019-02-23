@@ -1,0 +1,64 @@
+body{
+    background: #ffffff;
+}
+/*头部开始*/
+.header-box1{
+    height: 1.4rem;
+    margin-bottom: 0.24rem;
+}
+.content-c{
+    box-shadow: 0rem 0.1rem 0.15rem rgba(14,207,152,0.14);
+}
+.contenting-a{
+    width: 7.5rem;
+    height: 3rem;
+}
+.contenting-a-up{
+    width: 7.5rem;
+    height: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.back-button{
+    width: 2.02rem;
+    height: 0.59rem;
+    background: #fcd43f;
+    border-radius: 0.5rem;
+    font-size: 0.3rem;
+    line-height: 0.59rem;
+    text-align: center;
+}
+.back-button a{
+    color:#fff;
+}
+.again-button{
+    width: 2.02rem;
+    height: 0.59rem;
+    background: #0ecf98;
+    border-radius: 0.5rem;
+    font-size: 0.3rem;
+    color: #ffffff;
+    line-height: 0.59rem;
+    text-align: center;
+    margin-left: 1.15rem;
+}
+.again{
+    color:#fff;
+}
+.contenting-img{
+    width: 7.5rem;
+    height: 1.2rem;
+}
+.contenting-img img{
+    width: 3.45rem;
+    margin: 0 auto;
+}
+.contenting-b{
+    width: 7.02rem;
+    margin: 0 auto;
+}
+.details-bottom{
+    border: none;
+}
+/*头部结束*/
